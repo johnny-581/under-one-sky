@@ -31,9 +31,9 @@ export default function RootLayout({
       >
         <div className="flex flex-col h-screen">
           <Header />
-          <div className="grow flex flex-col justify-center items-center">
+          <main className="bg-yellow-100 container mx-auto">
             {children}
-          </div>
+          </main>
           <Footer />
         </div>
       </body>
