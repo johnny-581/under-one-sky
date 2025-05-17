@@ -44,7 +44,7 @@ function LayeredBox({ children }: LayeredBoxProp) {
             </div>
 
             {/* Layer 4: Content */}
-            <div className="absolute w-[70%] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-25%] z-40">
+            <div className="absolute w-[75%] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-25%] z-40">
                 {children}
             </div>
         </div>

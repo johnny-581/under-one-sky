@@ -1,7 +1,7 @@
 const ContactForm = () => {
     return (
         <div className="max-w-[900px] mx-auto mt-[100px] mb-[90px]">
-            <h2 className="text-3xl font-merriweather text-foreground text-center mb-8">Share Your Story</h2>
+            <h2 className="text-4xl font-merriweather font-light text-foreground text-center mb-8">Share Your Story</h2>
             <p className="text-[27px] font-merriweather text-foreground text-center mb-8">
                 If you are interested in an interview with us, please fill the information below and we&apos;ll connect with you in a week.
             </p>

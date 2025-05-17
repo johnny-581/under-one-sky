@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 const merriweather = Merriweather({
   variable: "--font-merriweather",
   subsets: ["latin"],
-  weight: "400"
+  weight: ["300", "400"]
 });
 
 // export const metadata: Metadata = {
@@ -33,7 +33,6 @@ export default function RootLayout({
       >
         <div className="flex flex-col h-screen">
           {/* <Header /> */}
-          {/* <main className="container mx-auto max-w-7xl"> */}
           <main className="px-7">
             {children}
             <Footer />

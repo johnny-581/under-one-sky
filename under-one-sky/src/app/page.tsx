@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* Vision Statement */}
       < LayeredBox >
-        <p className="text-3xl font-merriweather text-foreground w-full text-center leading-[50px]">
+        <p className="text-4xl font-merriweather font-light text-foreground w-full text-center leading-[50px]">
           Through long-form interviews, we uncover cross-cultural challenges for international students.
         </p>
       </LayeredBox >
