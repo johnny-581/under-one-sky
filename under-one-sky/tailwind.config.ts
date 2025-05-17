@@ -11,12 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        primary: "var(--primary)",
-        secondary: "var(--secondary)",
+        beige: "var(--beige)",
+        yellow: "var(--yellow)",
+        red: "var(--red)",
+        gray: "var(--gray)"
       },
       fontFamily: {
-        primary: ['var(--font-primary)'],
-        title: ['var(--font-title)'],
+        playfair: ['var(--font-playfair)'],
+        merriweather: ['var(--font-merriweather)'],
       }
     },
   },
